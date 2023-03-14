@@ -1,0 +1,32 @@
+{
+  "name": "gulf",
+  "version": "1.0.0",
+  "description": "Learn Gulp by building an awesome Dev Env.",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Traceur0/learnGulp.git"
+  },
+  "keywords": [
+    "learnGulp"
+  ],
+  "author": "nameHere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Traceur0/learnGulp/issues"
+  },
+  "homepage": "https://github.com/Traceur0/learnGulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0"
+  },
+  "dependencies": {
+    "del": "^4.1.1"
+  }
+}
